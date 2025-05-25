@@ -1,0 +1,11 @@
+train: E:\MyCVProgram\PCBDetection\datasets\PCB_DATASET\train  # train images (relative to 'path') 128 images
+val: E:\MyCVProgram\PCBDetection\datasets\PCB_DATASET\val  # val images (relative to 'path') 128 images
+test:  # val images (optional)
+
+# number of classes
+nc: 6
+
+# Classes
+names: ["missing_hole", "mouse_bite", "open_circuit", "short", "spur", "spurious_copper"]
+
+

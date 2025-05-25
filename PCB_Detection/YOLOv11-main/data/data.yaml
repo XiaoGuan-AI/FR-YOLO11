@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
+
+roboflow:
+  workspace: new-workspace-hujif
+  project: test_1-hro2s
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-hujif/test_1-hro2s/dataset/1
