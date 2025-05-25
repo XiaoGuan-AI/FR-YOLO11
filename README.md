@@ -46,9 +46,10 @@ PCB（Printed Circuit Board）是电子产品的“神经网络”，任何微�
 
 ```mermaid
 graph LR
-  A[YOLO11 + RepViTBlock] --> D[FADC (AdaDR + AdaKern + FreqSelect)]
+  A[YOLO11 + RepViTBlock] --> D[FADC]
   D --> B[FPN + PAN]
   B --> C[Decoupled CLS & REG]
+
 ```
 
 * **Backbone**：在 YOLO11 主干多处卷积块替换为 **RepViTBlock**，提升特征表达同时保持速度。  
